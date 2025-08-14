@@ -19,9 +19,10 @@ interface IJira {
   "Time spent": string;
 }
 interface IConvert {
-  "No.": number;
+  No: number;
   Name: string;
   Role: string;
+  Author: string;
   "1": number;
   "2": number;
   "3": number;
@@ -53,7 +54,6 @@ interface IConvert {
   "29": number;
   "30": number;
   "31": number;
-  Total?: number;
-  Average?: number;
+  SoNgayChamCong?: number;
 }
 export type { IJira, IConvert };
