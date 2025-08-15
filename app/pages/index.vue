@@ -13,7 +13,7 @@
 
       <!-- Control Panel -->
       <div class="bg-white rounded-lg shadow-md p-6 mb-6">
-        <div class="flex flex-wrap items-center gap-4 mb-4">
+        <div class="flex flex-wrap items-end gap-4 mb-4">
           <div class="flex-1 min-w-[200px]">
             <label class="block text-sm font-medium text-gray-700 mb-2"
               >Chọn Sheet</label
@@ -213,7 +213,7 @@ const filejira = ref<IJira[]>([]);
 const fileconvert = ref<IConvert[]>([]);
 const filerelease = ref<IConvert[]>([]);
 const listsheet = ref<any[]>([]);
-const sheetName = ref<string>("");
+const sheetName = ref<string>("Chọn sheet");
 const isProcessing = ref(false);
 const hasUpdatedData = ref(false);
 
